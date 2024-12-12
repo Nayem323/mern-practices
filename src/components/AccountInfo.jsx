@@ -1,3 +1,5 @@
+import { Link } from "react-router";
+
 const AccountInfo = ({ title, data, dataType }) => {
     return (
         <article className="block">
@@ -62,7 +64,7 @@ const Transactions = ({ data }) => {
             </ul>
             {data?.length ? (
                 <footer>
-                    <a href="#">See More</a>
+                    <Link to="/transactions">See More</Link>
                 </footer>
             ) : (
                 <p>No transactions yet</p>
