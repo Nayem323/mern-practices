@@ -1,0 +1,65 @@
+{
+    "account-details": [
+        {
+            "id": 1,
+            "account_name": "Aktaruzzaman Nayem",
+            "account_number": "1234567890",
+            "account_type": "Current"
+        },
+        {
+            "id": 2,
+            "account_name": "Shuvo",
+            "account_number": "354637473478",
+            "account_type": "Current"
+        }
+    ],
+    "balance": [
+        {
+            "id": 1,
+            "account_id": 1,
+            "amount": 200
+        },
+        {
+            "id": 2,
+            "account_id": 2,
+            "amount": 0
+        }
+    ],
+    "transactions": [
+        {
+            "account_id": 1,
+            "amount": "500",
+            "type": "Deposit",
+            "date": "2024-12-12",
+            "id": 1
+        },
+        {
+            "account_id": 1,
+            "amount": "200",
+            "type": "Withdraw",
+            "date": "2024-12-12",
+            "id": 2
+        },
+        {
+            "account_id": 1,
+            "amount": "100",
+            "type": "Withdraw",
+            "date": "2024-12-12",
+            "id": 3
+        },
+        {
+            "account_id": 1,
+            "amount": "100",
+            "type": "Deposit",
+            "date": "2024-12-12",
+            "id": 4
+        },
+        {
+            "account_id": 1,
+            "amount": 100,
+            "type": "Withdraw",
+            "date": "2024-12-12",
+            "id": 5
+        }
+    ]
+}
